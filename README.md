@@ -1,6 +1,15 @@
 # MongoDB Fitness Tracker
 
-## #https://mongodb-fitness-tracker-cjpalm.herokuapp.com/?id=5ec001cb8ff40d0017cb66d0
+### https://mongodb-fitness-tracker-cjpalm.herokuapp.com/?id=5ec001cb8ff40d0017cb66d0
+
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen">
+  <img src="https://img.shields.io/badge/deployment-passing-brightgreen">
+  <img src="https://img.shields.io/badge/contributors-2-blue">
+  <img src="https://img.shields.io/badge/license-ISC-blue">
+</p>
+
+
 
 ## Description
 
@@ -9,11 +18,11 @@ Keeping track of your physical health is incredibly important, and with this Mon
 
 ### Table of Contents
 
-[Installation](#installation) | 
-[Usage](#usage) | 
-[License](#license) | 
-[Questions](#questions) | 
-[Contribution](#contribution) |
+#### [Installation](#installation) <br>
+#### [Usage](#usage) <br> 
+#### [License](#license) <br>
+#### [Questions](#questions) <br>
+#### [Contribution](#contribution) <br>
 
 
 ### Installation
