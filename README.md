@@ -1,51 +1,40 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# MongoDB Fitness Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Description
 
-## User Story
+Keeping track of your physical health is incredibly important, and with this MongoDB Fitness Tracker, you'll be able to do just that! Add all the exercises you've been doing and check out all the hard work you've put in on the dashboard!
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-## Business Context
+### Table of Contents
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+[Installation](#installation) | 
+[Usage](#usage) | 
+[License](#license) | 
+[Questions](#questions) | 
+[Contribution](#contribution) |
 
-## Acceptance Criteria
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+### Installation
 
-The user should be able to:
+Packages used Express, Mongoose, Morgan and Routes. Check out the deployment route to use on your system, no installation needed. 
 
-  * Add exercises to a previous workout plan.
+### Usage
 
-  * Add new exercises to a new workout plan.
+When you visit the app, you can see your last workout on the homepage. From there you can either check out your fitness progress by clicking on the dashboard option in the navbar, or you can add a resistance or cardio workout. Keep adding your workouts and watch the graphs grow with more and more data. 
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+![demo image](./demo/demo1.png)
+![demo image](./demo/demo2.png)
+![demo image](./demo/demo3.png)
 
-## Commit Early and Often
+### License
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+![License badge](https://img.shields.io/badge/license-ISC-blue)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+### Contribution
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+The front end of this homework assignment was provided fro the class repo, my assignment was to build all of the routing and schema on the backend.
 
-Follow these guidelines for committing:
+### Questions
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+### cjpalmerin@gmail.com
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the Github repository
