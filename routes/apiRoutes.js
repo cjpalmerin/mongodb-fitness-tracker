@@ -30,6 +30,13 @@ module.exports = function(app) {
         });
     }); 
 
+    app.put("/api/workouts/:id",function ({body, params},res){    
+        db.Workout.findByIdAndUpdate(params.id, {$set: {exercises: body}})
+        .then(data => res.json(data))
+        .catch(err => { 
+            res.json(err)
+        })
+    });
 
     
 };
